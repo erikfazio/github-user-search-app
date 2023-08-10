@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "gardevoir": "^1.0.0",
+    "normalize.css": "^8.0.1"
   }
 }
