@@ -148,3 +148,25 @@ h4 {
   border-radius: 0.625rem;
   background-color: var(--primary);
 }
+
+/* Profile */
+
+.profile {
+  margin-top: 1rem;
+  border-radius: 0.9375rem;
+  background: var(--white);
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+}
+
+/* Info list */
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info-list__item {
+  display: flex;
+  gap: 1rem;
+}
