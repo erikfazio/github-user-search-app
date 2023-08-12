@@ -88,28 +88,28 @@ h4 {
 
 /* Color switcher */
 
-.color-switcher {
+.color-mode {
   display: flex;
   height: 1.25rem;
   justify-content: center;
   align-items: flex-start;
   gap: 1rem;
-}
 
-.color-switcher__label {
-  color: #4b6a9b;
-  text-align: right;
-  font-family: Space Mono;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.15625rem;
-  text-transform: uppercase;
-}
+  & .color-mode__label {
+    color: #4b6a9b;
+    text-align: right;
+    font-family: Space Mono;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.15625rem;
+    text-transform: uppercase;
+  }
 
-.color-switcher__icon {
-  width: 1.25rem;
-  height: 1.25rem;
+  & .color-mode__icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
 }
 
 /* Search */
