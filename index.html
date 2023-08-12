@@ -21,14 +21,14 @@
     <div class="container">
       <header class="header">
         <h1 class="logo">devfinder</h1>
-        <div class="color-mode">
-          <span class="color-mode__label">Dark</span>
-          <div class="color-mode__icon">
+        <div class="toggle-mode">
+          <span class="toggle-mode__label">Dark</span>
+          <div class="toggle-mode__icon">
             <img src="public/icon-moon.svg" alt="Switch to dark mode" />
           </div>
         </div>
       </header>
-      <div class="search rounded">
+      <div class="search rounded shadow">
         <img
           class="search__icon"
           src="public/icon-search.svg"
@@ -41,51 +41,65 @@
         />
         <button class="button" type="button">Search</button>
       </div>
-      <main class="profile rounded">
+      <main class="profile rounded shadow">
         <header>
-          <img src="" alt="Profile icon" />
+          <img class="profile__icon" src="" alt="Profile icon" />
+          <section class="profile__info">
+            <h2>The octocat</h2>
+            <h3>@octocat</h3>
+            <p>Joined <time>25 Jan 2011</time></p>
+          </section>
         </header>
-        <div class="profile__stats">
-          <div>8</div>
-          <div>3938</div>
-          <div>9</div>
-        </div>
         <p class="profile__text">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
           Quisque volutpat mattis eros.
         </p>
-        <div class="info-list">
-          <div class="info-list__item">
+        <div class="profile__stats">
+          <div>
+            <div class="profile__stats-label">Repos</div>
+            <div class="profile__stats-value">8</div>
+          </div>
+          <div>
+            <div class="profile__stats-label">Followers</div>
+            <div class="profile__stats-value">3938</div>
+          </div>
+          <div>
+            <div class="profile__stats-label">Following</div>
+            <div class="profile__stats-value">9</div>
+          </div>
+        </div>
+        <div class="info">
+          <div class="info__item">
             <img
-              class="info-list__icon"
+              class="info__icon"
               src="public/icon-location.svg"
               alt="Company Icon"
             />
-            <span class="info-list__text">San Francisco</span>
+            <span class="info__text">San Francisco</span>
           </div>
-          <div class="info-list__item">
+          <div class="info__item">
             <img
-              class="info-list__icon"
+              class="info__icon"
               src="public/icon-website.svg"
               alt="Company Icon"
             />
-            <span class="info-list__text">https://github.blog</span>
+            <span class="info__text">https://github.blog</span>
           </div>
-          <div class="info-list__item">
+          <div class="info__item">
             <img
-              class="info-list__icon"
+              class="info__icon"
               src="public/icon-twitter.svg"
               alt="Company Icon"
             />
-            <span class="info-list__text">Not available</span>
+            <span class="info__text">Not available</span>
           </div>
-          <div class="info-list__item">
+          <div class="info__item">
             <img
-              class="info-list__icon"
+              class="info__icon"
               src="public/icon-company.svg"
               alt="Company Icon"
             />
-            <span class="info-list__text">@github</span>
+            <span class="info__text">@github</span>
           </div>
         </div>
       </main>
